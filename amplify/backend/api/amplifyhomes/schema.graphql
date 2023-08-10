@@ -1,6 +1,8 @@
 type Home @model @auth(rules: [{allow: public}]) {
   id: ID!
-  address: String
+  name: String
   image_url: String
-  price: Float
+  date: AWSDate
+  comment: String
 }
+ 

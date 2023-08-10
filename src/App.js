@@ -1,9 +1,13 @@
 import './App.css';
+import {
+ Frame3Collection 
+} from './ui-components';
 
 function App() {
   return (
-    <div className="App">
-    </div>
+<div className="App">
+<Frame3Collection />
+</div>
   );
 }
 
